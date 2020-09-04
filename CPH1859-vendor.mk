@@ -1131,7 +1131,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl0.rgb32 \
     vendor/oppo/CPH1859/proprietary/vendor/etc/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl1.rgb32 \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/file112.wav:$(TARGET_COPY_OUT_VENDOR)/etc/file112.wav \
     vendor/oppo/CPH1859/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/oppo/CPH1859/proprietary/vendor/etc/fteh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fteh.cfg \
     vendor/oppo/CPH1859/proprietary/vendor/etc/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/gasryuv.model \
@@ -1279,7 +1278,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/oppo/CPH1859/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
     vendor/oppo/CPH1859/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/common/mixer_paths.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/test_path/oppo6771_17061/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/oppo6771_17061/mixer_paths.xml \
@@ -2372,14 +2370,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/oppo/ck.fs:$(TARGET_COPY_OUT_VENDOR)/oppo/ck.fs \
-    vendor/oppo/CPH1859/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck \
-    vendor/oppo/CPH1859/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/oppo/CPH1859/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/oppo/CPH1859/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/oppo/CPH1859/proprietary/vendor/res/sound/CA2CA.ogg:$(TARGET_COPY_OUT_VENDOR)/res/sound/CA2CA.ogg \
-    vendor/oppo/CPH1859/proprietary/vendor/res/sound/CADetected.ogg:$(TARGET_COPY_OUT_VENDOR)/res/sound/CADetected.ogg \
-    vendor/oppo/CPH1859/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/oppo/CPH1859/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav
+    vendor/oppo/CPH1859/proprietary/vendor/oppo/recovery_rootcheck:$(TARGET_COPY_OUT_VENDOR)/oppo/recovery_rootcheck
 
 PRODUCT_PACKAGES += \
     SoterService
