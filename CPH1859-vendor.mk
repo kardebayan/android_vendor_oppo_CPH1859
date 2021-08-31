@@ -1426,15 +1426,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.1-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.primary.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.r_submix.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio.usb.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
@@ -1754,7 +1749,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libutinterface_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutinterface_md.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
@@ -1782,7 +1776,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/s5k4h7_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7_mipi_raw_IdxMgr.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/s5k4h7_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7_mipi_raw_tuning.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib/soter_attk_provision.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@4.1.so \
@@ -1825,13 +1818,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.primary.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.r_submix.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.usb.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
@@ -2296,7 +2285,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtextclassifier_hash.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustonic_keybox_ca.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so \
@@ -2321,7 +2309,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/s5k4h7_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7_mipi_raw_IdxMgr.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/s5k4h7_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k4h7_mipi_raw_tuning.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soter_attk_provision.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@4.1.so \
