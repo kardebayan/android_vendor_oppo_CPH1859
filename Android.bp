@@ -26,6 +26,12 @@ android_app_import {
 	privileged: true,
 }
 
+dex_import {
+	name: "mtk-wifi-service",
+	owner: "oppo",
+	jars: ["proprietary/framework/mtk-wifi-service.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine",
 	owner: "oppo",
