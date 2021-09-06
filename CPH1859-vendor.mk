@@ -120,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/oppo/CPH1859/proprietary/vendor/bin/rpmbengclient_test:$(TARGET_COPY_OUT_VENDOR)/bin/rpmbengclient_test \
     vendor/oppo/CPH1859/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/self-init:$(TARGET_COPY_OUT_VENDOR)/bin/self-init \
     vendor/oppo/CPH1859/proprietary/vendor/bin/starter:$(TARGET_COPY_OUT_VENDOR)/bin/starter \
     vendor/oppo/CPH1859/proprietary/vendor/bin/stroke:$(TARGET_COPY_OUT_VENDOR)/bin/stroke \
     vendor/oppo/CPH1859/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
